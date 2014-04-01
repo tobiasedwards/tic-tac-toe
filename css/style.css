@@ -53,7 +53,7 @@ body {
     .game-container .tile, .game-container .tile .tile-inner {
       width: 147px;
       height: 147px;
-      line-height: 156.66667px;
+      line-height: 151.66667px;
       border-radius: 5px;
       background: #ecf0f1;
       text-align: center;

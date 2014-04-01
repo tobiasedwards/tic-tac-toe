@@ -95,7 +95,7 @@ body {
     &, .tile-inner {
       width: ceil($tile-width);
       height: ceil($tile-width);
-      line-height: $tile-width + 10px;
+      line-height: $tile-width - 5px;
       border-radius: $tile-border-radius;
 
       background: $tile-color;
@@ -103,7 +103,7 @@ body {
       font-weight: bold;
       z-index: 10;
 
-      font-size: 55px;
+      font-size: 90px;
     }
 
     // Build position classes
