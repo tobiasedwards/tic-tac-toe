@@ -20,6 +20,8 @@ HTMLActuator.prototype.addTile = function(tile) {
   this.applyClasses(wrapper, classes);
   this.applyClasses(inner, ["tile-inner"]);
 
+  inner.textContent = tile.value;
+
   wrapper.appendChild(inner);
 
   this.tileContainer.appendChild(wrapper);
